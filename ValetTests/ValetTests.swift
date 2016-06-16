@@ -669,6 +669,7 @@ class ValetMacTests: XCTestCase
         let valet = VALValet(identifier: "MacOSVulnTest", accessibility: .WhenUnlocked)!
         let vulnKey = "KeepIt"
         let vulnValue = "Secret"
+        valet.removeObjectForKey(vulnKey)
 
         var query = valet.baseQuery
 

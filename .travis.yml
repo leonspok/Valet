@@ -6,6 +6,4 @@ before_script:
 script:
     - xcodebuild -project Valet.xcodeproj -scheme "Valet iOS" -sdk iphonesimulator -configuration Debug -destination "platform=iOS Simulator,name=iPad Air 2,OS=9.3" test
     - xcodebuild -project Valet.xcodeproj -scheme "Valet Mac" -sdk macosx10.11 -configuration Debug -destination "platform=OS X" test
-    - xcodebuild -project Valet.xcodeproj -scheme "Valet iOS" -sdk iphonesimulator -configuration Debug build
-    - xcodebuild -project Valet.xcodeproj -scheme "Valet Mac" -sdk macosx10.11 -configuration Debug -destination "platform=OS X" build
     - pod lib lint --verbose --fail-fast
