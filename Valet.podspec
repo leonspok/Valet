@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Valet/*.h'
   s.private_header_files = 'Valet/*_Protected.h'
   s.frameworks = 'Security'
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
 end

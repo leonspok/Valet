@@ -19,6 +19,7 @@
 //
 
 import Foundation
+import Valet
 import XCTest
 
 
@@ -733,3 +734,18 @@ class ValetMacTests: XCTestCase
 }
 
 #endif
+
+
+class ValetShimTests: XCTestCase
+{
+    static let identifier = "valet_testing"
+    let valet = Valet(available: .WhenUnlocked, withIdentifier: identifier)
+    let key = "key"
+    let passcode = "topsecret"
+
+    override func setUp()
+    {
+        super.setUp()
+        XCTAssertNotNil(valet)
+    }
+}
