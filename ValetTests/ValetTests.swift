@@ -91,7 +91,7 @@ class ValetTests: XCTestCase
         XCTAssertTrue(valet.canAccessKeychain())
     }
 
-    func test_canAccessKeychain_Performance()
+    func test_canAccessKeychain_performance()
     {
         measureBlock {
             self.valet.canAccessKeychain()
@@ -734,18 +734,3 @@ class ValetMacTests: XCTestCase
 }
 
 #endif
-
-
-class ValetShimTests: XCTestCase
-{
-    static let identifier = "valet_testing"
-    let valet = Valet(available: .WhenUnlocked, withIdentifier: identifier)
-    let key = "key"
-    let passcode = "topsecret"
-
-    override func setUp()
-    {
-        super.setUp()
-        XCTAssertNotNil(valet)
-    }
-}

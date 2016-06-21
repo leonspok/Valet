@@ -105,7 +105,7 @@ typedef NS_ENUM(NSUInteger, VALMigrationError) {
 /// @return YES if a value has been set for the given key, NO otherwise.
 - (BOOL)containsObjectForKey:(nonnull NSString *)key;
 /// @return The set of all (NSString) keys currently stored in this Valet instance.
-- (nonnull NSSet *)allKeys;
+- (nonnull NSSet <NSString *> *)allKeys;
 
 /// Removes a key/object pair from the keychain.
 /// @return NO if the keychain is not accessible.

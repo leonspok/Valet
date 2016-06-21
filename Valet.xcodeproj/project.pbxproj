@@ -34,6 +34,8 @@
 		AC89A3EE1CC82738009A7121 /* ValetTouchIDTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89A3ED1CC82738009A7121 /* ValetTouchIDTestViewController.swift */; };
 		ACDE7CE11D18A5A600A8563D /* Valet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE7CE01D18A5A600A8563D /* Valet.swift */; };
 		ACDE7CE81D18A94000A8563D /* Valet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE7CE01D18A5A600A8563D /* Valet.swift */; };
+		ACDE7CEC1D18D1DB00A8563D /* ValetThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE7CE91D18D1C200A8563D /* ValetThreeTests.swift */; };
+		ACDE7CED1D18D1DD00A8563D /* ValetThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE7CE91D18D1C200A8563D /* ValetThreeTests.swift */; };
 		EA1E1FA01A8C48560067C991 /* ValetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E1F9F1A8C48560067C991 /* ValetTests.m */; };
 		EAEAA8991B16813100F7AA98 /* ValetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E1F9F1A8C48560067C991 /* ValetTests.m */; };
 		EAF894841B053E0500EDAD6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF894831B053E0500EDAD6C /* Images.xcassets */; };
@@ -76,6 +78,7 @@
 		AC89A3ED1CC82738009A7121 /* ValetTouchIDTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValetTouchIDTestViewController.swift; sourceTree = "<group>"; };
 		ACDE7CDF1D18A56B00A8563D /* Valet.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Valet.private.modulemap; sourceTree = "<group>"; };
 		ACDE7CE01D18A5A600A8563D /* Valet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valet.swift; sourceTree = "<group>"; };
+		ACDE7CE91D18D1C200A8563D /* ValetThreeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValetThreeTests.swift; sourceTree = "<group>"; };
 		EA1E1F861A8C46080067C991 /* Valet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Valet.h; sourceTree = "<group>"; };
 		EA1E1F8E1A8C46090067C991 /* Valet iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valet iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1E1F941A8C46090067C991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -187,6 +190,7 @@
 				AC3CECAF1CCEE8E1007BC47C /* Valet-Tests-Bridging-Header.h */,
 				EA1E1F9F1A8C48560067C991 /* ValetTests.m */,
 				AC3CECB11CCEE8E1007BC47C /* ValetTests.swift */,
+				ACDE7CE91D18D1C200A8563D /* ValetThreeTests.swift */,
 			);
 			name = Tests;
 			path = ValetTests;
@@ -446,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3CECB21CCEE8E1007BC47C /* ValetTests.swift in Sources */,
+				ACDE7CEC1D18D1DB00A8563D /* ValetThreeTests.swift in Sources */,
 				EA1E1FA01A8C48560067C991 /* ValetTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3CECB31CCEE8E1007BC47C /* ValetTests.swift in Sources */,
+				ACDE7CED1D18D1DD00A8563D /* ValetThreeTests.swift in Sources */,
 				EAEAA8991B16813100F7AA98 /* ValetTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
